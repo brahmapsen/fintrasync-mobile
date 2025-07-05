@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "fintra",
+    "slug": "fintra",
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/images/fintrasync.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brahmapsen.fintra",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIBackgroundModes": [
+          "remote-notification",
+          "remote-notification"
+        ],
+        "NSUserTrackingUsageDescription": "This app does not track your activity across other apps and websites."
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "template": "./web/index.html"
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a60b7463-78bb-442c-a645-c1f3d0367b10"
+      }
+    },
+    "owner": "brahmapsen",
+    "android": {
+      "package": "com.brahmapsen.fintra"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ]
+  }
+}
