@@ -29,25 +29,26 @@ export default function TabLayout() {
         name="dashboard"
         options={{
           title: 'Dashboard',
-          tabBarIcon: ({ color, size }) => <Ionicons name="chatbubbles" size={size} color={color} />,
+          tabBarIcon: ({ color, size }) => <Ionicons name="grid-outline" size={size} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'Profile',
+          tabBarIcon: ({ color, size }) => <Ionicons name="person-outline" size={size} color={color} />,
         }}
       />
 
       <Tabs.Screen
-        name="ask"
+        name="indicators"
         options={{
-          title: 'Ask',
-          tabBarIcon: ({ color, size }) => <Ionicons name="location" size={size} color={color} />,
+          title: 'Indicators',
+          tabBarIcon: ({ color, size }) => <Ionicons name="analytics-outline" size={size} color={color} />,
         }}
       />
 
-      <Tabs.Screen
-        name="news"
-        options={{
-          title: 'News',
-          tabBarIcon: ({ color, size }) => <Ionicons name="chatbubble" size={size} color={color} />,
-        }}
-      />
+      
     
     </Tabs>
   );
