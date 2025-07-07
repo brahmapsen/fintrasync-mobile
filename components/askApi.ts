@@ -19,4 +19,4 @@ export async function sendAskMessage(message: string, userId: string = 'test123'
     throw new Error('Server error');
   }
   return response.json();
-} 
+}

@@ -101,4 +101,4 @@ const styles = StyleSheet.create({
     color: '#222',
     fontWeight: 'bold',
   },
-}); 
+});

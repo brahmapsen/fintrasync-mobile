@@ -257,4 +257,4 @@ const styles = StyleSheet.create({
   genderButtonTextSelected: {
     color: '#ffffff',
   },
-}); 
+});

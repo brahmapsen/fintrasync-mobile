@@ -141,4 +141,4 @@ const globalStyles = StyleSheet.create({
 });
 
 export { globalStyles };
-export default globalStyles; 
+export default globalStyles;

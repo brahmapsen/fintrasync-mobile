@@ -37,4 +37,3 @@ eas update --branch production --message "Initial update"
 
 ## Expo GO was set for development build
 npm uninstall expo-dev-client
-
