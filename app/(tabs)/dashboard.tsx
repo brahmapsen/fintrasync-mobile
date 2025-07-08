@@ -139,11 +139,10 @@ export default function DashboardScreen() {
       let requestBody: any = {};
 
       // For forecast endpoint, include market data
-      const marketData = generateDummyMarketData(portfolioData);
+      // const marketData = generateDummyMarketData(portfolioData);
       if (endpoint === 'generate-forecast') {
         requestBody = {
           portfolio: portfolioData,
-          market_data: marketData
         };
         // console.log('Forecast requestBody:', requestBody);
       } else if (endpoint === 'generate-advice') {
@@ -162,8 +161,7 @@ export default function DashboardScreen() {
       } else {
         // For other endpoints (complete-analysis, scenario-analysis)
         requestBody = {
-          portfolio: portfolioData,
-          market_data: marketData
+          portfolio: portfolioData
         };
         // console.log('Other endpoint requestBody:', requestBody);
       }
