@@ -1,5 +1,11 @@
 # Personal Finanancial Wizard
 
+# UI is powered by the Analytics engine from this repo: 
+https://github.com/brahmapsen/fintrasync-agent.git
+
+# Application Link:
+https://fintra.expo.app
+
 # EXPO https://expo.dev
 
 ## Check out the repo
@@ -20,8 +26,6 @@ eas build:configure  | eas update:configure
 npx expo export --platform web [web bundle created]
 eas deploy --prod  [fintra.expo.app]
 
-# Application Link:
-https://fintra.expo.app
 
 # IOS deployment Apple Developer: https://developer.apple.com
 
